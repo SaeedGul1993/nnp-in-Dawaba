@@ -117,7 +117,7 @@ const SignInPage = () => {
     }
 
     const userLoggedIn = (email, password) => {
-        loginApi(email, password, isSituation, showAlert, handleClick, handleClose,handleClickError,handleCloseError);
+        loginApi(email, password, isSituation, showAlert, handleClick, handleClose, handleClickError, handleCloseError);
     }
 
 
@@ -159,7 +159,10 @@ const SignInPage = () => {
                     >
                         SignIn
                 </Button>
-                    <p>Back to Home Screen <ArrowBack onClick={backToHome} className="arrow" /> </p>
+                    <div className="home-screen-label">
+                        <p>Back to Home Screen </p>
+                        <ArrowBack onClick={backToHome} className="arrow" />
+                    </div>
                 </div>
             </Card>
             <div>

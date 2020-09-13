@@ -50,12 +50,22 @@
 }
 .btn-container>p{
     font-family: 'IBM Plex Sans', sans-serif;
-    margin: 20px auto;
+    border: 1px solid #000000;
 }
-.btn-container>p>.arrow{
+.home-screen-label>.arrow{
     margin-left: 10px;
     cursor: pointer;
+    padding-left: 5px;
+    padding-top: 6px;
+
 }
-.btn-container>p>.arrow:hover{
+.home-screen-label>.arrow:hover{
     color: #17a2b8 !important;
+}
+
+.home-screen-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px auto;    
 }
