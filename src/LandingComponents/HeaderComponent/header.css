@@ -1,0 +1,34 @@
+.MuiTypography-colorInherit{
+    font-family: 'Great Vibes', cursive !important;
+    font-size: 2rem !important;
+}
+.MuiToolbar-dense {
+    min-height:60px !important;
+}
+.nav-items-container{
+    margin-left: auto !important;
+}
+.nav-item-btn:focus{
+    outline: none !important;
+}
+.nav-item-btn{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:#ffff !important;
+    font-weight: 500 !important;
+    padding: 10px !important;
+    letter-spacing: 2px !important;
+}
+.main-nav{
+    background-color: #17a2b8 !important;
+}
+.menu-btn:focus{
+    outline: none !important;
+}
+.link-item {
+    color: #ffff !important;
+    text-decoration: none !important;
+}
+.active {
+    color: brown !important;
+    font-weight: 900 !important;
+}

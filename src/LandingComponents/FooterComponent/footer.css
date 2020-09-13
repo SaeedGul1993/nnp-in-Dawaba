@@ -1,0 +1,66 @@
+.main-footer{
+    background-color: #17a2b8;
+    color: #ffffff;
+    min-height:40vh ;
+    padding: 10px;
+}
+.sub-container{
+    display: flex;
+    justify-content: space-around;
+}
+.feature-item{
+    width: 30vw;
+    text-align: center;
+}
+.feature-item>h4{
+    font-family: 'Concert One', cursive;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: normal !important;
+}
+.feature-item>p{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.list-item-footer{
+    list-style: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center !important;
+
+}
+.list-item-footer:hover{
+    color: #ecebeb;
+}
+.list-item-footer::before{
+    content:"→";
+    padding-right: 5px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 900;
+}
+.social-container{
+    display: flex;
+    justify-content: center;
+
+}
+.social-container>:nth-child(n){
+    font-size: 2.5rem !important;
+    cursor: pointer;
+    
+}
+.social-container>:nth-child(n):hover{
+    color: #ecebeb !important;
+}
+.underline{
+    border-top:1px solid rgba(255,255,255,.9)!important;
+    width: 90vw;
+    margin: 10px auto;
+}
+.info{
+    text-align: center !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    margin-bottom: 0 !important;
+}
+.list-item-footer:hover{
+    cursor: pointer;
+}

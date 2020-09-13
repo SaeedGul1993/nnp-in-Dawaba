@@ -1,0 +1,37 @@
+.image-style {
+    width: 100%!important;
+    height: 100%!important;
+}
+.paper-style {
+    width: 100vw;
+    height: 80vh;
+}
+.add-image-container {
+    position: relative;
+    bottom: 70%;
+    left: 25%;
+     width: 50vw;
+    text-align: center;
+    padding: 20px;
+}
+.add-image-container>h1{
+    font-family: 'Sigmar One', cursive;
+}
+.add-image-container>p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 900 !important;
+}
+.add-image-container>h1,.add-image-container>p{
+    color:#ffffff;
+}
+.CheckButton{
+    background-color: #17a2b8 !important;
+    color: #ffffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 10px;
+    font-size: 17px;
+    width: 10vw;
+}
+.CheckButton:focus{
+    outline: none !important;
+}

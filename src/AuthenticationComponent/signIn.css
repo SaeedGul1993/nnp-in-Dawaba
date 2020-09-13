@@ -1,0 +1,61 @@
+.signIn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #ffff;
+    flex-direction: column;
+}
+.signIn-card{
+    width: 30vw;
+    height: 70vh;
+}
+.signIn-card>h3{
+    text-align: center;
+    font-family: 'Sigmar One', cursive;
+    margin:-20px auto;
+}
+.signIn-card>p{
+    text-align: center !important;
+    margin: 15px auto;
+    font-family: 'Great Vibes', cursive !important;
+    color: #17a2b8;
+    font-size: 24px;
+}
+.signIn-field{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.signIn-form{
+    margin: 70px auto;
+}
+.field{
+    width: 25vw !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.btn-container{
+    text-align: center;
+}
+.signIn-btn{
+    background-color: #17a2b8 !important;
+    color: #ffff !important;
+    width: 10vw !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+    padding:10px;
+}
+.signIn-btn:focus{
+    outline: none !important;
+}
+.btn-container>p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 20px auto;
+}
+.btn-container>p>.arrow{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.btn-container>p>.arrow:hover{
+    color: #17a2b8 !important;
+}

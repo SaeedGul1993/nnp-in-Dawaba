@@ -1,0 +1,79 @@
+.main-service-container{
+    width: 100vw !important;
+    margin:100px auto;
+}
+.main-service-container>h1{
+    font-family: 'Sigmar One', cursive;
+    text-align: center;
+}
+.card-container{
+    display: flex ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service-card{
+    width: 30vw;
+    margin-bottom: 10px;
+    text-align: center !important;
+    padding: 10px;
+}
+.service-card>h5{
+    font-family: 'Concert One', cursive;
+    margin-top: 10px;
+}
+.image-container{
+    width:20vw ;
+    height: 20vh;
+    margin: auto 4vw;
+}
+.card-header-image{
+    width: 100%;
+    height: 100%;
+}
+.clue-container{
+    display: flex !important;
+    justify-content:center !important;
+    align-items: center !important;
+    margin-bottom: 70px;
+    padding: 5px;
+}
+.clue-container>.add-info{
+    margin-right: 20px !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #a09e9efa;
+}
+.add-service-btn{
+    color:#ffff !important;
+    background: #17a2b8 !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.add-service-btn:focus{
+    outline: none !important;
+}
+.service-list{
+    text-align: left; 
+    font-size: 14px;  
+    font-family: 'IBM Plex Sans', sans-serif;
+    list-style: none;
+}
+.service-list::before{
+    content:"→";
+    padding-right: 5px;
+    color: #17a2b8;
+    font-size: 17px;
+    font-weight: 900;
+}
+.reg-btn{
+    color: #17a2b8 !important;
+    border: 1px solid #17a2b8 !important;
+}
+.reg-btn:focus{
+    outline: none !important;
+}
+.reg-btn:hover{
+    background-color: #17a2b8 !important;
+    border: 1px solid #17a2b8 !important;
+    color: #ffffff !important;
+}
